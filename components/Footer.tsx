@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Ramesh Sir</h3>
             <p className="text-sm text-muted-foreground">
-              Connecting mentors and mentees for professional growth.
+              Connecting with me for professional growth.
             </p>
           </div>
           <div>
@@ -20,16 +20,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/mentors" className="text-sm hover:underline">
-                  Find a Mentor
+                <Link href="/" className="text-sm hover:underline">
+                  What i offer
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/become-a-mentor"
-                  className="text-sm hover:underline"
-                >
-                  Become a Mentor
+                <Link href="/" className="text-sm hover:underline">
+                  What for you
                 </Link>
               </li>
             </ul>
