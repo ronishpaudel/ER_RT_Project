@@ -15,7 +15,7 @@ interface AboutSectionProps {
 export function AboutSection({ about, socials }: AboutSectionProps) {
   return (
     <section className="mb-8">
-      <h2 className="mb-4 text-2xl font-bold">About me</h2>
+      <h2 className="mb-7"></h2>
       <Card>
         <CardContent className="p-6">
           <p className="mb-4 text-muted-foreground">{about}</p>
